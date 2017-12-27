@@ -1,0 +1,30 @@
+                              Table "public.master"
+    Column    |          Type          |                Modifiers                 
+--------------+------------------------+------------------------------------------
+ playerid     | character varying(10)  | not null default NULL::character varying
+ birthyear    | integer                | 
+ birthmonth   | integer                | 
+ birthday     | integer                | 
+ birthcountry | character varying(50)  | default NULL::character varying
+ birthstate   | character varying(50)  | default NULL::character varying
+ birthcity    | character varying(50)  | default NULL::character varying
+ deathyear    | integer                | 
+ deathmonth   | integer                | 
+ deathday     | integer                | 
+ deathcountry | character varying(50)  | default NULL::character varying
+ deathstate   | character varying(50)  | default NULL::character varying
+ deathcity    | character varying(50)  | default NULL::character varying
+ namefirst    | character varying(50)  | default NULL::character varying
+ namelast     | character varying(50)  | default NULL::character varying
+ namegiven    | character varying(255) | default NULL::character varying
+ weight       | integer                | 
+ height       | double precision       | 
+ bats         | character varying(1)   | default NULL::character varying
+ throws       | character varying(1)   | default NULL::character varying
+ debut        | character varying(10)  | default NULL::character varying
+ finalgame    | character varying(10)  | default NULL::character varying
+ retroid      | character varying(9)   | default NULL::character varying
+ bbrefid      | character varying(9)   | default NULL::character varying
+Indexes:
+    "master_pkey" PRIMARY KEY, btree (playerid)
+
